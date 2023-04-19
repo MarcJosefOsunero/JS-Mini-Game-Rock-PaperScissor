@@ -1,0 +1,28 @@
+
+body{
+    background-color:#303030;
+}
+
+.button-container {
+    display:flex;
+    justify-content:center;
+    
+}
+button {
+    font-size:2rem;
+    outline:none;
+    background:none;
+    border:none;
+    cursor:pointer;
+}
+.play-container{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    color:white;
+    justify-content:center;
+}
+
+.history {
+    color:white;
+    text-align:center;
+}
